@@ -1,0 +1,226 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('4.jpg');
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    height: 100vh;
+    width: 100%;
+}
+
+.left{
+    position: relative;
+    display: inline-block;
+    top: 15px;
+    left: 30px;
+}
+.left img{
+    width: 42px;
+    filter: invert(100%);
+    padding: 0px 0px;
+    padding: 0px -10px;
+}
+.left div{
+    text-align: center;
+    font-size: 9px;
+    line-height: 1px;
+    margin: 0px -21px;
+}
+.mid{
+    display: block;
+    width: 45%;
+    margin: -85px auto;
+    font-size: 35px;
+}
+.right{
+    position: absolute;
+    display: inline-block;
+    right: 35px;
+    top: 12px;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.btn{
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0px 5px;
+    background-color: black;
+    color: white;
+    padding: 1px 25px;
+    border-radius: 20px;
+    font-size: 10px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(125, 123, 123);
+}
+.form {
+    margin: 0px 330px;
+    padding: 60px;
+    align-items: center;
+}
+
+.contact {
+    padding: 10px 1px;
+    text-shadow: 50px 50px 90px red, -50px -50px 90px blue;
+}
+
+.name {
+    font-size: 15px;
+}
+.name input{
+    width: 60vh;
+    height: 4vh;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.name input:hover{
+    border: 3px solid rgb(23, 23, 196);
+}
+
+.address {
+    font-size: 15px;
+}
+.address input{
+    width: 60vh;
+    height: 4vh;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.address input:hover{
+    border: 3px solid rgb(23, 23, 196);
+}
+.email{
+    font-size: 15px;
+}
+.email input{
+    width: 60vh;
+    height: 4vh;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.email input:hover{
+    border: 3px solid rgb(23, 23, 196);
+}
+.check{
+    margin: -35px 4px;
+    padding: 38px 0px;
+    font-size: 18px;
+}
+.check input{
+    width: 7vh;
+    height: 3vh;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.disc{
+    font-size: 15px;
+}
+.disc textarea{
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.disc textarea:hover{
+    border: 3px solid rgb(23, 23, 196);
+}
+.submit{
+
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0px 12px;
+    background-color: green;
+    color: white;
+    padding: 1px 22px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: rgb(3, 54, 3);
+}
+.reset{
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 0px 1px;
+    background-color: red;
+    color: white;
+    padding: 1px 22px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.reset:hover{
+    background-color: rgb(116, 5, 5);
+}
+footer{
+    border-top: 2px solid blue;
+    color: white;
+    background-color: rgb(22, 21, 21);
+    height: 58px;
+    width: 100%;
+    text-align: center;
+}
+footer img{
+    width: 20px;
+    position: relative;
+    display: inline-block;
+    bottom: 4px;
+    left: 250px;
+    cursor: pointer;
+    margin: 0px 8px;
+}
+footer img:hover{
+      background-color: 1.jpgrgb(6, 105, 73);
+}
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
